@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://cs-charles.github.io/sitemap.xml
