@@ -26,7 +26,7 @@
   <meta name="description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template." />
 
-  <meta name="keywords" content="Hugo, theme, jane" />
+  <meta name="keywords" content="charles, blog, 博客" />
 
 
 
@@ -88,13 +88,24 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
 <![endif]-->
 
 
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', '194830943', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 
 
 </head>
 <body>
   <div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
-    <a href="/" class="logo">Jane</a>
+    <a href="/" class="logo">charles博客</a>
   </div>
   <div class="mobile-navbar-icon">
     <span></span>
@@ -108,35 +119,35 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
         
           
           
-            <a class="menu-item-link" href="http://cs-charles.github.io/">This is Home</a>
+            <a class="menu-item-link" href="http://cs-charles.github.io/">首页</a>
           
         
       </li><li class="mobile-menu-item">
         
           
           
-            <a class="menu-item-link" href="http://cs-charles.github.io/post/">Archives</a>
+            <a class="menu-item-link" href="http://cs-charles.github.io/post/">归档</a>
           
         
       </li><li class="mobile-menu-item">
         
           
           
-            <a class="menu-item-link" href="http://cs-charles.github.io/tags/">Tags</a>
+            <a class="menu-item-link" href="http://cs-charles.github.io/tags/">标签</a>
           
         
       </li><li class="mobile-menu-item">
         
           
           
-            <a class="menu-item-link" href="http://cs-charles.github.io/categories/">Categories</a>
+            <a class="menu-item-link" href="http://cs-charles.github.io/categories/">类别</a>
           
         
       </li><li class="mobile-menu-item">
         
           
           
-            <a class="menu-item-link" href="http://cs-charles.github.io/about/">About</a>
+            <a class="menu-item-link" href="http://cs-charles.github.io/about/">关于</a>
           
         
       </li><li class="mobile-menu-item">
@@ -144,7 +155,7 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
           
           
             <a class="menu-item-link" href="https://gohugo.io" rel="noopener" target="_blank">
-              external-link
+              链接
               
               <i class="iconfont">
                 <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -267,7 +278,7 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
     <div class="logo-wrapper">
   <a href="/" class="logo">
     
-      Jane
+      charles博客
     
   </a>
 </div>
@@ -280,7 +291,7 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
         
           
           
-            <a class="menu-item-link" href="http://cs-charles.github.io/">This is Home</a>
+            <a class="menu-item-link" href="http://cs-charles.github.io/">首页</a>
           
 
         
@@ -291,7 +302,7 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
         
           
           
-            <a class="menu-item-link" href="http://cs-charles.github.io/post/">Archives</a>
+            <a class="menu-item-link" href="http://cs-charles.github.io/post/">归档</a>
           
 
         
@@ -302,7 +313,7 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
         
           
           
-            <a class="menu-item-link" href="http://cs-charles.github.io/tags/">Tags</a>
+            <a class="menu-item-link" href="http://cs-charles.github.io/tags/">标签</a>
           
 
         
@@ -313,7 +324,7 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
         
           
           
-            <a class="menu-item-link" href="http://cs-charles.github.io/categories/">Categories</a>
+            <a class="menu-item-link" href="http://cs-charles.github.io/categories/">类别</a>
           
 
         
@@ -324,7 +335,7 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
         
           
           
-            <a class="menu-item-link" href="http://cs-charles.github.io/about/">About</a>
+            <a class="menu-item-link" href="http://cs-charles.github.io/about/">关于</a>
           
 
         
@@ -336,7 +347,7 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
           
           
             <a class="menu-item-link" href="https://gohugo.io" rel="noopener" target="_blank">
-              external-link
+              链接
               
               <i class="iconfont">
                 <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -407,7 +418,7 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
       
       <div class="post-meta">
         <time datetime="2014-09-28" class="post-time">
-          2014-09-28
+          2014-09-28 00:00:00
         </time>
         <div class="post-category">
             <a href="http://cs-charles.github.io/categories/development/"> Development </a>
@@ -1314,7 +1325,7 @@ $ vi themes/zafta/layouts/_default/single.html
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-      2014-09-28
+      2014-09-28 00:00:00
       
     </span>
   </p>
@@ -1664,7 +1675,7 @@ $ vi themes/zafta/layouts/_default/single.html
   <span class="copyright-year">
     &copy;
     
-      2017 -
+      2020 -
     2021
     <span class="heart">
       
@@ -1678,7 +1689,7 @@ $ vi themes/zafta/layouts/_default/single.html
 
       </i>
     </span><span class="author">
-        xianmin
+        charles
         
       </span></span>
 
